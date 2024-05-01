@@ -16,8 +16,8 @@ importers:
         specifier: 2.26.2
         version: 2.26.2
       '@rixo/eslint-config':
-        specifier: 0.8.1
-        version: 0.8.1
+        specifier: 0.9.0
+        version: 0.9.0
       '@svitejs/changesets-changelog-github-compact':
         specifier: 0.1.1
         version: 0.1.1
@@ -68,8 +68,8 @@ importers:
         version: 0.1.2
     devDependencies:
       '@rixo/eslint-config':
-        specifier: 0.7.2
-        version: 0.7.2
+        specifier: 0.9.0
+        version: 0.9.0
 
   playground/kit-app:
     devDependencies:
@@ -738,10 +738,10 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@rixo/eslint-config@0.7.2:
-    resolution: {integrity: sha512-kMGndimDt+0/V2aM76QFklg61X1s2pCsb++GnOVwAxh2rAJuVUT5CjrUpjzl14Uaz+PxPBXfTdUMnlwfCxpZAA==}
+  /@rixo/eslint-config@0.9.0:
+    resolution: {integrity: sha512-S2rMfV4fsMNWJ0mmJgNRZO3O8M/UqRtTGTUk2OAKdjOSnPBUHnryacS2ByuwTyhZnLgswq7r8OGZhK1Dgvmk/Q==}
     dependencies:
-      '@rixo/eslint': 0.7.2
+      '@rixo/eslint': 0.9.0
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-typescript
@@ -749,19 +749,8 @@ packages:
       - supports-color
     dev: true
 
-  /@rixo/eslint-config@0.8.1:
-    resolution: {integrity: sha512-oFRqm2aXXCptZ/8fpD9NQytssCORHu3CXB00cFgl7LFjhCw7XuZFX7IBtWmeIphXhgSA5TNjicenM/VeY+t2YA==}
-    dependencies:
-      '@rixo/eslint': 0.8.0
-    transitivePeerDependencies:
-      - '@typescript-eslint/parser'
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-    dev: true
-
-  /@rixo/eslint@0.7.2:
-    resolution: {integrity: sha512-n0Mu1AmIqDP8u6A+trlCH1cfx9gxj7O3NiAoikuCT6L1V2E5jZ7ijylVvDgPiEIRBNuRtxy7PDCsRueh741Ubw==}
+  /@rixo/eslint@0.9.0:
+    resolution: {integrity: sha512-phAmf9f+arTn3/lEf2o9SuUAJSj1Jr8sqYWuxZkCrRqSi9lF/ZKUhmtnpo+oUd39gAUz+p5K+I0s/U2hB6WXyQ==}
     hasBin: true
     dependencies:
       babel-eslint: 10.1.0(eslint@6.8.0)
@@ -769,28 +758,9 @@ packages:
       eslint-config-prettier: 4.3.0(eslint@6.8.0)
       eslint-plugin-disable: 1.0.5
       eslint-plugin-import: 2.22.1(eslint@6.8.0)
-      eslint-plugin-prettier: 3.3.1(eslint-config-prettier@4.3.0)(eslint@6.8.0)(prettier@1.19.1)
+      eslint-plugin-prettier: 3.3.1(eslint-config-prettier@4.3.0)(eslint@6.8.0)(prettier@2.8.8)
       js-yaml: 3.14.1
-      prettier: 1.19.1
-    transitivePeerDependencies:
-      - '@typescript-eslint/parser'
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-    dev: true
-
-  /@rixo/eslint@0.8.0:
-    resolution: {integrity: sha512-wJUpkFCX5MmAG5psafIcqOad8Ia8fa1we51f5cZJUBoqPk8jZKSmgLUbKTZaJh4EdOyvDe9ZeyzqnH6DBF3Q1A==}
-    hasBin: true
-    dependencies:
-      babel-eslint: 10.1.0(eslint@6.8.0)
-      eslint: 6.8.0
-      eslint-config-prettier: 4.3.0(eslint@6.8.0)
-      eslint-plugin-disable: 1.0.5
-      eslint-plugin-import: 2.22.1(eslint@6.8.0)
-      eslint-plugin-prettier: 3.3.1(eslint-config-prettier@4.3.0)(eslint@6.8.0)(prettier@1.19.1)
-      js-yaml: 3.14.1
-      prettier: 1.19.1
+      prettier: 2.8.8
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-typescript
@@ -2377,7 +2347,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier@3.3.1(eslint-config-prettier@4.3.0)(eslint@6.8.0)(prettier@1.19.1):
+  /eslint-plugin-prettier@3.3.1(eslint-config-prettier@4.3.0)(eslint@6.8.0)(prettier@2.8.8):
     resolution: {integrity: sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -2390,7 +2360,7 @@ packages:
     dependencies:
       eslint: 6.8.0
       eslint-config-prettier: 4.3.0(eslint@6.8.0)
-      prettier: 1.19.1
+      prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
     dev: true
 

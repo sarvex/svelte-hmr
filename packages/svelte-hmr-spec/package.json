@@ -25,6 +25,6 @@
     "test-hmr": "^0.1.2"
   },
   "devDependencies": {
-    "@rixo/eslint-config": "0.7.2"
+    "@rixo/eslint-config": "0.9.0"
   }
 }
